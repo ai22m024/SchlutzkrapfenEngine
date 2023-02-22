@@ -1,0 +1,28 @@
+Questions
+
+What is the difference between git and github?
+Git is the actual software product that performs the versioning control. If you are working on some projects and commit, push or add, you are working with git.
+Github is a service, where you can host you git projects, make CI/CD Pipelines for them, or share them as public repo.
+
+Name 3 benefits of a version control system:
+- It is possible to have controll over the history of code, old scripts that where used a few months ago, can be revisited.
+- No accidental delete or overwrite of files.
+- Multiple people can work on the same file, and merge it together
+
+Name 3 alternatives to git:
+- SVN
+- PLastic
+- Bitbucket
+
+Name 2 differences between git and other version control systems:
+
+Git is Distributed version Controll (On git clone, you get all the historic commits)
+SVN is Centralized version controll (There is one central system that stores all)
+
+IN SVN you can checkout a branch at a certain height of the tree, in git you need to clone the whole repo.
+
+Name known issues related to game engines (Unreal, Unity) and version control systems
+Binary assets cannot be merged (Huge meshes, Images)
+Difficult for Artists
+Great projects with tonnes of gb are difficult
+The whole project must be synced, even if you are just coding, you need to download the whole tree
