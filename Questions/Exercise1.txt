@@ -12,7 +12,7 @@ Name 3 benefits of a version control system:
 Name 3 alternatives to git:
 - SVN
 - PLastic
-- Bitbucket
+- Mercurial
 
 Name 2 differences between git and other version control systems:
 
