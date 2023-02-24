@@ -1,0 +1,15 @@
+Describe a logging system with your own words:
+A logging system is much more than a output system that prints some information. A loggin system helps to keep track of what is going on in my program and helps me debug. Even if the program crashes, the log can be vissited afterwards.
+What is the difference between git submodules and git subtrees?
+Submodules are seperate repositories that can be inserted in our project. Everytime we change something in the submodule, we can change the original repo of that aswell.
+Subtrees are a subfolder of the parent project, that can be commited, branched an merged, without merging the whole project. Merging will change whern using uptrees.
+
+What is a build system in C++? Name 3 build systems:
+A buildsystem tells the comuter, how to build certain projects. Which files should be used, what should be copied where, what settings should be applied while compiling, where should the finished project be located.
+- GNU Make, CMake, QMake
+s
+What is a package manager in C++? Name 3 package manager:
+A package manageer allows it to quickly install packages in your project, without doing it manually and linking everything together. 
+- Conan
+- vcpkg
+- CPPPAN
