@@ -17,6 +17,9 @@ project "SchlutzkrapfenEngine"
 	targetdir ("bin/" .. outputdir .. "/%{prj.name}")
 	objdir ("bin-int/" .. outputdir .. "/%{prj.name}")
 
+	pchheader "skpch.h"
+	pchsource "SchlutzkrapfenEngine/src/skpch.cpp"
+
 	files
 	{
 		"%{prj.name}/src/**.h",

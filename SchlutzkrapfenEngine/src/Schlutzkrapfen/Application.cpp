@@ -1,3 +1,5 @@
+#include "skpch.h"
+
 #include "Application.h"
 #include "Schlutzkrapfen/Events/ApplicationEvents.h"
 #include "Schlutzkrapfen/Log.h"

@@ -1,7 +1,7 @@
 #pragma once
 
 #include "Schlutzkrapfen/Events/Event.h"
-#include <sstream>
+
 
 namespace Schlutzkrapfen {
 
