@@ -4,6 +4,9 @@
     <Filter Include="Schlutzkrapfen">
       <UniqueIdentifier>{79A72890-6575-1C96-4E09-8DBC3A76F8FA}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Schlutzkrapfen\Events">
+      <UniqueIdentifier>{3D119A3B-A97D-5536-7271-ED93DE9C779E}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="src\Schlutzkrapfen.h" />
@@ -15,6 +18,18 @@
     </ClInclude>
     <ClInclude Include="src\Schlutzkrapfen\EntryPoint.h">
       <Filter>Schlutzkrapfen</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Schlutzkrapfen\Events\ApplicationEvents.h">
+      <Filter>Schlutzkrapfen\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Schlutzkrapfen\Events\Event.h">
+      <Filter>Schlutzkrapfen\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Schlutzkrapfen\Events\KeyEvents.h">
+      <Filter>Schlutzkrapfen\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Schlutzkrapfen\Events\MouseEvents.h">
+      <Filter>Schlutzkrapfen\Events</Filter>
     </ClInclude>
     <ClInclude Include="src\Schlutzkrapfen\Log.h">
       <Filter>Schlutzkrapfen</Filter>

@@ -1,6 +1,7 @@
 #pragma once
 
 #include "Core.h"
+#include "Schlutzkrapfen/Events/Event.h"
 namespace Schlutzkrapfen {
 	class SK_API Application
 	{
@@ -8,7 +9,7 @@ namespace Schlutzkrapfen {
 		Application();
 		virtual ~Application();
 
-		void run();
+		void Run();
 	};
 
 	// Define this in client

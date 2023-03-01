@@ -9,3 +9,5 @@
 #else
 #error Schlutzkrapfen only taste good on Windows.
 #endif
+
+#define BIT(x) (1 << x)

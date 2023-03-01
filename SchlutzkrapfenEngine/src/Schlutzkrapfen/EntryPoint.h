@@ -11,7 +11,7 @@ int main(int argc, char** argv) {
 	SK_INFO("Hello! {0}", a);
 
 	auto app = Schlutzkrapfen::CreateApplication();
-	app->run();
+	app->Run();
 	delete app;
 }
 

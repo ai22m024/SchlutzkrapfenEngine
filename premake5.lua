@@ -25,6 +25,7 @@ project "SchlutzkrapfenEngine"
 
 	includedirs
 	{
+		"%{prj.name}/src",
 		"%{prj.name}/vendor/spdlog/include"
 	}
 
@@ -74,7 +75,7 @@ project "Game"
 	}
 
 	links {
-		"SchlutzkrapfenEngine"
+		"SchlutzkrapfenEngine"	
 	}
 
 	filter "system:windows"
