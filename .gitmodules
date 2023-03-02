@@ -1,3 +1,6 @@
 [submodule "SchlutzkrapfenEngine/vendor/spdlog"]
 	path = SchlutzkrapfenEngine/vendor/spdlog
 	url = https://github.com/gabime/spdlog
+[submodule "SchlutzkrapfenEngine/vendor/GLFW"]
+	path = SchlutzkrapfenEngine/vendor/GLFW
+	url = https://github.com/TheCherno/glfw

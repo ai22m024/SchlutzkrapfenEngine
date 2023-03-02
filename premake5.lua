@@ -9,6 +9,12 @@ workspace "SchlutzkrapfenEngine"
 
 outputdir = "%{cfg.buildcfg}-%{cfg.system}-%{cfg.architecture}"
 
+IncludeDir = {}
+IncludeDir["GLFW"] = "SchlutzkrapfenEngine/vendor/GLFW/include"
+
+include "SchlutzkrapfenEngine/vendor/GLFW"
+
+
 project "SchlutzkrapfenEngine"
 	location "SchlutzkrapfenEngine"
 	kind "SharedLib"
@@ -29,7 +35,14 @@ project "SchlutzkrapfenEngine"
 	includedirs
 	{
 		"%{prj.name}/src",
-		"%{prj.name}/vendor/spdlog/include"
+		"%{prj.name}/vendor/spdlog/include",
+		"%{IncludeDir.GLFW}"
+	}
+
+	links
+	{
+		"GLFW",
+		"opengl32.lib"
 	}
 
 	filter "system:windows"

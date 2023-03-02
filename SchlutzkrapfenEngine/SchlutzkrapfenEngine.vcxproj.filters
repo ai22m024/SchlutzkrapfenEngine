@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
+    <Filter Include="Platform">
+      <UniqueIdentifier>{2AC788B4-1694-E3BF-3FAD-D1672BD9184E}</UniqueIdentifier>
+    </Filter>
     <Filter Include="Schlutzkrapfen">
       <UniqueIdentifier>{79A72890-6575-1C96-4E09-8DBC3A76F8FA}</UniqueIdentifier>
     </Filter>
@@ -9,6 +12,9 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="src\Platform\WindowsWindow.h">
+      <Filter>Platform</Filter>
+    </ClInclude>
     <ClInclude Include="src\Schlutzkrapfen.h" />
     <ClInclude Include="src\Schlutzkrapfen\Application.h">
       <Filter>Schlutzkrapfen</Filter>
@@ -34,9 +40,15 @@
     <ClInclude Include="src\Schlutzkrapfen\Log.h">
       <Filter>Schlutzkrapfen</Filter>
     </ClInclude>
+    <ClInclude Include="src\Schlutzkrapfen\Window.h">
+      <Filter>Schlutzkrapfen</Filter>
+    </ClInclude>
     <ClInclude Include="src\skpch.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="src\Platform\WindowsWindow.cpp">
+      <Filter>Platform</Filter>
+    </ClCompile>
     <ClCompile Include="src\Schlutzkrapfen\Application.cpp">
       <Filter>Schlutzkrapfen</Filter>
     </ClCompile>
