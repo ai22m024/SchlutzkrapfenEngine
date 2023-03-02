@@ -1,5 +1,5 @@
 #pragma once
-
+#include "skpch.h"
 #include "Schlutzkrapfen/Core.h"
 #include <functional>
 
@@ -55,7 +55,6 @@ namespace Schlutzkrapfen {
 		{
 		}
 
-		// F will be deduced by the compiler
 		template<typename T, typename F>
 		bool Dispatch(const F& func)
 		{
