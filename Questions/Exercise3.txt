@@ -1,0 +1,11 @@
+What is the difference between a dynamic linked library and a static library?
+
+
+A ddl is a is a standalone library that provides function. A static library is integrated in the program on compile time.
+
+What is a Design Pattern?
+A design Pattern is a way to describe a certain Datastructure, Architecture. Designpatterns help in providing a straight forward way for certain problems.
+
+
+Name and describe 2 Design Patterns (except façade or adapter):
+Decorator, Composite
