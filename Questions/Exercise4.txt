@@ -1,0 +1,21 @@
+What is a precompiled header? Name pros and cons:
+You don't want to build all the headers on compile, if they don't switch.
+Compile them once use them later:
+
+Pro speed up in compile time
+Cons Makefile more difficult
+
+Describe the layer of abstraction with your own words:
+The way of hiding the details in a subsystem. Splitting tasks in two entities.
+
+
+Name the SOLID principles and describe them briefly
+Good Practices for object oriented programming. 
+
+SOLID stands for:
+
+    S - Single-responsiblity Principle
+    O - Open-closed Principle
+    L - Liskov Substitution Principle
+    I - Interface Segregation Principle
+    D - Dependency Inversion Principle
